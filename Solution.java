@@ -47,7 +47,6 @@ class code {
                 if (RemainingWater[i] < dailyUsage) {
                     String clusterName = clusters.get(i).get(0);
                     String[] pipeline = pipeMap.get(clusterName);
-                    System.out.println(clusterName + " " + Arrays.toString(pipeline));
                     // Traverse path back to F
                     while (pipeline[0].charAt(0) != 'F') {
                         int currentIndex = clusterIndexMap.get(pipeline[1]);
