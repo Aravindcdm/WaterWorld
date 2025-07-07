@@ -15,6 +15,7 @@ F - is the federal source of pipe C - is the sink/destination of pipe (cluster t
 
  Input: 
 2 
+
 3 
 C1 100 300 
 C2 150 300 
