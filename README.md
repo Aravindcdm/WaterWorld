@@ -14,18 +14,28 @@ C1 - cluster name 100 - daily water need 300 - storage capacity Link definition 
 F - is the federal source of pipe C - is the sink/destination of pipe (cluster tank) Clusters don’t share water that was allocated to them with others, but water from federal body flows through them if needed.
 
  Input: 
+ 
 2 
 
 3 
+
 C1 100 300 
+
 C2 150 300 
+
 C3 100 100 
+
 3 
+
 F_C1 
+
 F_C2 
+
 C2_C3 
 
+
  Output : 1100 
+ 
 
 In the above on day 1, C1 gets 300, C2 gets 300, C3 gets 100 End of day 1, C1 would have 200, C2 would have 150, C3 would have 0
 
